@@ -1,0 +1,15 @@
+body {
+    background-color: white;
+}
+
+p {
+    font-size: 16PX;
+    text-align: left;
+    font-family: 'Times New Roman', serif;
+}
+
+h1 {
+    color: #444444;
+    font-style: italic;
+}
+

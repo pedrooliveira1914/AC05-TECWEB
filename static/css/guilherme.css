@@ -1,0 +1,16 @@
+body {
+    background-color: #d3d3d3;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    line-height: normal;
+}
+

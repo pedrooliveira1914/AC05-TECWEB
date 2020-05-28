@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+
+
+<h1>Formulário - Presença</h1>
+
+<form action='/presenca/gravar' method='post'>
+
+<p>
+  <label for="email">Qual é o E-mail?</label>
+  <br>
+  <input id="email" type="email" name='email'/>
+</p>
+<br>
+
+<p>
+  <label for="resposta">O que é Framework?</label>
+  <br>
+  <input id="resposta" type="resposta" name="resposta"/>
+</p>
+
+<label for="presenca">
+  <b>Você esteve Presente?</b>
+</label>
+<br>
+
+<!--radio button-->
+<input id="sim" type="radio" name="presenca" value="presente">
+<label for="sim">Sim.</label>
+
+<input id="nao" type="radio" name="presenca" value="ausente">
+<label for="nao">Não.</label>
+<br>
+
+<p>
+  <label for='comentarios'>Comentários a fazer:</label>
+  <br>
+  <textarea id='comentarios' name='comentarios' cols="40" rows="10"></textarea>
+</p>
+<br>
+
+<p>
+  <input type='submit' value='Enviar'>
+</p>
+
+</form>
+
